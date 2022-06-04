@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  height: 60px;
+  justify-content: flex-end;
+  color: #000000DE;
+  align-items: center;
+}
+
+.dotted-menu {
+  padding: 0px 17px;
+}
+
+
+header a {
+  padding: 15px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #000000DE;
+  cursor: pointer;
+}
+
+.filter-color {
+  filter: invert(37%) sepia(7%) saturate(364%) hue-rotate(174deg) brightness(97%) contrast(87%)
+}
+
+#login-button {
+  background-color: #1a73e8;
+  border: none;
+  color: white;
+  padding: 9px 23px;
+  font-weight: 500;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+
+#login-button:hover {
+  background: #4285f4;
+}
