@@ -7,8 +7,8 @@ const App = () => (
     <Main />
     <Footer /> */}
 
-    {/* <SearchPage /> */}
-    <ResultsPage />
+    <SearchPage />
+    {/* <ResultsPage /> */}
   </div>
 );
 
