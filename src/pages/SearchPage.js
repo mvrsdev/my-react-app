@@ -1,7 +1,7 @@
-const MainPage = () => {
+const SearchPage = () => {
   return (
     <p>This is main page</p>
   )
 };
 
-export default MainPage;
+export default SearchPage;
