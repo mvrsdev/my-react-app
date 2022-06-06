@@ -1,6 +1,5 @@
 import './HeaderComp.css';
 import '../../App.css';
-import dottedMenu from '../images/dotted-menu.svg';
 
 export const HeaderComp = () => {
   return (
@@ -9,7 +8,7 @@ export const HeaderComp = () => {
       <a href="index.com">Imagens</a>
       <img
         className="filter-color dotted-menu"
-        src={dottedMenu}
+        src="images/dotted-menu.svg"
         alt="Ícone de Menu"
         width="17px"
         height="17px"

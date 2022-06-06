@@ -1,11 +1,10 @@
 import './MainComp.css';
 import '../../App.css';
-import logo from '../images/google-logo.svg';
 
 export const MainComp = () => {
   return (
     <main>
-      <img id="logo" className="logo-large" src={logo} alt="Logo do Google" />
+      <img id="logo" className="logo-large" src="images/google-logo.svg" alt="Logo do Google" />
       <form action="">
         <div className="input-box">
           <input type="text" />
