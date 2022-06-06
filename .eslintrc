@@ -11,7 +11,7 @@
     "no-trailing-spaces": "warn",
     "no-debugger": "warn",
     "camelcase": "error",
-    "eol-last": "error",
+    "eol-last": "warn",
     "comma-dangle": [
       "error",
       {

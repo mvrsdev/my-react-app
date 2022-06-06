@@ -1,5 +1,5 @@
-import './FooterComp.css';
-export const FooterComp = () => {
+import './Footer.css';
+export const Footer = () => {
   return (
     <footer>
       <div id="footer-left">

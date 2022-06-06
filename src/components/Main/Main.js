@@ -1,7 +1,7 @@
-import './MainComp.css';
+import './Main.css';
 import '../../App.css';
 
-export const MainComp = () => {
+export const Main = () => {
   return (
     <main>
       <img id="logo" className="logo-large" src="images/google-logo.svg" alt="Logo do Google" />

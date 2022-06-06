@@ -1,7 +1,7 @@
-import './HeaderComp.css';
+import './Header.css';
 import '../../App.css';
 
-export const HeaderComp = () => {
+export const Header = () => {
   return (
     <header>
       <a href="index.com">Gmail</a>

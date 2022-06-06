@@ -1,2 +1,3 @@
-export { FooterComp } from './FooterComp/FooterComp';
-// TODO: Export all other components contained in this folder
+export { Footer } from './Footer/Footer';
+export { Header } from './Header/Header';
+export { Main } from './Main/Main';
