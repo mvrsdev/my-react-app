@@ -1,0 +1,36 @@
+{
+  "extends": ["react-app", "eslint:recommended", "plugin:react/recommended"],
+  "plugins": ["react", "react-hooks"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "arrow-parens": ["warn", "as-needed"],
+    "react/no-unescaped-entities": "off",
+    "no-console": "warn",
+    "no-trailing-spaces": "warn",
+    "no-debugger": "warn",
+    "camelcase": "error",
+    "eol-last": "error",
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "objects": "always-multiline"
+      }
+    ],
+    "eqeqeq": ["error", "always"],
+    "func-style": ["error", "expression"],
+    "spaced-comment": ["error", "always"],
+    "quotes": ["error", "single", { "allowTemplateLiterals": false }],
+    "prefer-template": ["warn"],
+    "prefer-const": ["warn"],
+    "object-shorthand": ["warn", "always"],
+    "arrow-body-style": ["warn", "as-needed"],
+    "no-unused-vars": ["warn"],
+    "no-unused-expressions": ["warn"],
+    "react/jsx-uses-react": "off"
+  }
+}
