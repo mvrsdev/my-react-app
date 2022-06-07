@@ -1,8 +1,7 @@
 import './Header.css';
 import '../../App.css';
 
-export const Header = () => {
-  return (
+export const Header = () => (
     <header>
       <a href="index.com">Gmail</a>
       <a href="index.com">Imagens</a>
@@ -16,4 +15,3 @@ export const Header = () => {
       <button id="login-button">Fazer login</button>
     </header>
   );
-};

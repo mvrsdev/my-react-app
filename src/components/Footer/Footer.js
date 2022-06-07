@@ -1,6 +1,5 @@
 import './Footer.css';
 export const Footer = () => {
-  return (
     <footer>
       <div id="footer-left">
         <a href="index.com">Sobre</a>
@@ -14,5 +13,4 @@ export const Footer = () => {
         <a href="index.com">Configurações</a>
       </div>
     </footer>
-  );
 };
