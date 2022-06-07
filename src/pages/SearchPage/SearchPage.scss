@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  flex-direction: column;
+  height: 84vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-large {
+  width: 272px;
+  height: auto;
+}
+
+#logo {
+  padding-bottom: 40px;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+SearchInputField {
+  width: 50vw;
+}

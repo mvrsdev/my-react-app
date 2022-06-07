@@ -12,6 +12,7 @@
     "no-debugger": "warn",
     "camelcase": "error",
     "eol-last": "warn",
+    "react/prop-types": "off",
     "comma-dangle": [
       "error",
       {

@@ -1,0 +1,13 @@
+button {
+  border: 1px solid #f8f9fa;
+  background-color: #f8f9fa;
+  color: #3c4043;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+
+  &:hover {
+    border: 1px solid #e0e0e0;
+  }
+}
