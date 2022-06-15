@@ -1,2 +1,2 @@
 export { default as SearchPage } from './SearchPage/SearchPage';
-export { default as ResultsPage } from './ResultsPage';
+export { default as ResultsPage } from './ResultsPage/ResultsPage';

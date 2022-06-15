@@ -1,11 +1,13 @@
-import { SearchPage } from 'pages';
+import { SearchPage, ResultsPage } from 'pages';
 import './App.css';
 
 const App = () => (
   <div>
-    <SearchPage />
-    {/* <ResultsPage /> */}
+    {/* <SearchPage /> */}
+    <ResultsPage />
   </div>
 );
 
 export default App;
+
+
